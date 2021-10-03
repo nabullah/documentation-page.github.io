@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Documentation Page</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header style="font-size: 1.5rem;">HTML: HyperText Markup Language</header>
+        <ul style="list-style: none;">
+            <li> <a class="nav-link" href="#introduction"> Introduction </a> </li>
+
+            <li> <a href="#key_resources" class="nav-link">Key resources</a>
+                <ul>
+                    <li>HTML Introduction</li>
+                    <li>HTML Tutorials</li>
+                    <li>HTML Reference</li>
+            </li>
+        </ul>
+
+        <li> <a href="#beginner's_tutorials" class="nav-link">Beginner's tutorials</a>
+            <ul>
+                <li> Introduction to HTML</a></li>
+                <li>Multimedia and embedding</li>
+                <li>HTML tables</li>
+                <li>HTML forms</li>
+        </li>
+        </ul>
+
+        <li> <a href="#advanced_topics" class="nav-link">Advanced topics</a>
+            <ul>
+                <li>CORS enabled image</li>
+                <li>CORS settings attributes</li>
+                <li>Preloading content with rel="preload"</li>
+        </li>
+        </ul>
+
+        <li> <a href="#references" class="nav-link">References</a>
+            <ul>
+                <li>HTML reference</li>
+                <li>HTML element reference</li>
+                <li>Global attributes</li>
+                <li>Link types</li>
+                <li>HTML content categories</li>
+        </li>
+        </ul>
+        </li>
+        <li> <a href="#HTML_Semantic_Elements" class="nav-link">HTML Semantic Elements</a>
+            <ul>
+                <li>What are Semantic Elements?</li>
+                <li>Semantic Elements in HTML</li>
+                <li>HTML &lt;section> Element</li>
+                <li>HTML &lt;article> Element</li>
+                <li>Nesting &lt;article> in &lt;section> or Vice Versa?</li>
+        </li>
+        </ul>
+        </li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="introduction">
+            <header>Introduction</header>
+            <p>HTML (HyperText Markup Language) is the most basic building block of the Web. It defines the meaning and
+                structure of web content. Other technologies besides HTML are generally used to describe a web page's
+                appearance/presentation (CSS) or functionality/behavior (JavaScript).</p>
+
+            <p>"Hypertext" refers to links that connect web pages to one another, either within a single website or
+                between websites. Links are a fundamental aspect of the Web. By uploading content to the Internet and
+                linking it to pages created by other people, you become an active participant in the World Wide Web.</p>
+
+            <p>HTML uses "markup" to annotate text, images, and other content for display in a Web browser. HTML markup
+                includes special "elements" such as
+                &lt;head&gt;, &lt;title&gt;,&lt;&gt; &lt;body&gt;, &lt;head&gt;, &lt;footer&gt;,
+                &it;&gt;&lt;article&gt;, &lt;section&gt;,&lt;p&gt; , &lt;div&gt;,&it;span&gt; , &lt;img&gt;,;
+                &lt;aside&gt;, &lt;audio&gt;, &it;canvas&gt;,&lt;&gt; datalist>, &lt;details&gt;, &lt;embed&gt;,
+                &lt;nav&gt;, &lt;output&gt;, &lt;progress&gt;,&lt;video&gt; ,&lt;ul&gt; , &lt;ol&gt;,&lt;li&gt; and
+                many others.
+            </p>
+
+            <p>An HTML element is set off from other text in a document by "&lt;tag&gt;", which consist of the element
+                name
+                surrounded by
+                "&lt;" and "&gt;". The name of an element inside a tag is case insensitive. That is, it can be written
+                in uppercase, lowercase, or a mixture. For example, the
+                <!--<title> tag can be written as <Title>, <TITLE>,--> or in any other way.
+            </p>
+
+            <p>The articles below can help you learn more about HTML.</p>
+
+        </section>
+
+
+        <section class="main-section" id="key_resources">
+            <header>Key Resources</header>
+            <p class="sub-heading">Html Introduction</p>
+            <article>If you're new to Web development, be sure to read our HTML Basics article to learn what HTML is and
+                how to use it.</article>
+            <code><pre>
+                    &lt;!DOCTYPE html>
+                    &lt;html>
+                    &lt;body>
+
+                    &lt;h1>My First Heading&lt;/h1>
+
+                    &lt;p>My first paragraph.&lt;/p>
+
+                    &lt;/body>
+                    &lt;/html>
+                    </pre>
+
+                </code>
+            <p class="sub-heading" class="sub-heading">HTML Tutorials</p>
+            <article>For articles about how to use HTML, as well as tutorials and complete examples, check out our HTML
+                Learning Area.</article>
+            <p class="sub-heading">HTML Reference</p>
+            <article>In our extensive HTML reference section, you'll find the details about every element and attribute
+                in HTML.</article>
+        </section><br>
+
+
+        <section class="main-section" id="beginner's_tutorials">
+            <header>Beginner's tutorials</header>
+            <p class="sub-heading">Introduction to HTML</p>
+            <article> This module sets the stage, getting you used to important concepts and syntax such as looking at
+                applying HTML to text, how to create hyperlinks, and how to use HTML to structure a web page.</article>
+            <p class="sub-heading">Multimedia and embedding</p>
+            <article> This module explores how to use HTML to include multimedia in your web pages, including the
+                different ways that images can be included, and how to embed video, audio, and even entire other
+                webpages.</article>
+            <article>Here is an Example of Multimedia and embedding : </article>
+            <code>
+                    <pre>
+                         &lt;!DOCTYPE html>
+                         &lt;html>
+                         &lt;head>
+                        <title>HTML embed Tag</title>
+                         &lt;/head>
+                         &lt;body>
+                             &lt;embed src = "/html/yourfile.mid" width = "100%" height = "60" >
+                              &lt;noembed> &lt;img src = "yourimage.gif" alt = "Alternative Media" > &lt;/noembed>
+                             &lt;/embed>
+                         &lt;/body>                                    
+                         &lt;/html>
+                    </pre>
+                </code>
+            <p class="sub-heading">HTML tables</p>
+            <article> Representing tabular data on a webpage in an understandable, accessible way can be a challenge.
+                This module covers basic table markup, along with more complex features such as implementing captions
+                and summaries.</article>
+            <p>Here is an Example of Table tag</p>
+            <code>
+                    <pre>
+                        &lt;!DOCTYPE html>
+                        &lt;html>
+
+                        &lt;head>
+                        &lt;title>HTML Tables&lt;/title>
+                        &lt;/head>
+	
+                         &lt;body>
+                            &lt;table border = "1">
+                                &lt;tr>
+                                    &lt;td>Row 1, Column 1&lt;/td>
+                                    &lt;td>Row 1, Column 2&lt;/td>
+                                &lt;/tr>
+         
+                                &lt;tr>
+                                    &lt;td>Row 2, Column 1&lt;/td>
+                                    &lt;td>Row 2, Column 2&lt;/td>
+                                &lt;/tr>
+                            &lt;/table>
+      
+                        &lt;/body>
+                    &lt;/html>
+                    </pre>
+                </code>
+            <p class="sub-heading">HTML forms</p>
+            <article> Forms are a very important part of the Web — these provide much of the functionality you need for
+                interacting with websites, e.g. registering and logging in, sending feedback, buying products, and more.
+                This module gets you started with creating the client-side/front-end parts of forms.</article>
+            <p>Example : </p>
+            <code>
+                    <pre>
+                        &lt;form action = "Script URL" method = "GET|POST">
+                            form elements like input, textarea etc.
+                         &lt;/form>
+                    </pre>
+                </code>
+        </section><br>
+
+
+        <section class="main-section" id="advanced_topics">
+            <header>Advanced topics</header>
+            <p class="sub-heading">CORS enabled image</p>
+            <article> The crossorigin attribute, in combination with an appropriate CORS header, allows images defined
+                by the <img> element to be loaded from foreign origins and used in a "canvas" element as if they were
+                being loaded from the current origin. </article>
+            <p class="sub-heading">Multimedia and embedding</p>
+            <article> This module explores how to use HTML to include multimedia in your web pages, including the
+                different ways that images can be included, and how to embed video, audio, and even entire other
+                webpages.</article>
+            <p class="sub-heading">CORS settings attributes</p>
+            <article> Some HTML elements that provide support for CORS, such as img> or video>, have a crossorigin
+                attribute (crossOrigin property), which lets you configure the CORS requests for the element's fetched
+                data.</article>
+
+        </section><br>
+
+        <section class="main-section" id="references">
+            <header>References</header>
+            <p class="sub-heading">HTML reference</p>
+            <article> HTML consists of elements, each of which may be modified by some number of attributes. HTML
+                documents are connected to each other with links. </article>
+            <p class="sub-heading">HTML element reference </p>
+            <article>Global attributes may be specified on all HTML elements, even those not specified in the standard.
+                This means that any non-standard elements must still permit these attributes, even though those elements
+                make the document HTML5-noncompliant</article>
+            <p class="sub-heading">Link types </p>
+            <article>In HTML, various link types can be used to establish and define the relationship between two
+                documents. Link elements that types can be set on include a>, area> and link>.</article>
+            <p class="sub-heading">HTML content categories </p>
+            <p>Example : </p>
+            <code>
+                <pre>
+                    &lt;a href="url">link text&lt;/a>
+                    &lt;a href="https://www.fcc.com/">Visit Documentation Page FCC!&lt;/a&lt;
+                </pre>
+            </code>
+            <article>HTML is comprised of several kinds of content, each of which is allowed to be used in certain
+                contexts and is disallowed in others. Similarly, each has a set of other content categories they can
+                contain and elements that can or can't be used in them. This is a guide to these categories.</article>
+        </section><br>
+      
+        <section class="main-section" id="HTML_Semantic_Elements">
+            <header>HTML Semantic Elements</header>
+            <p class="sub-heading">What are Semantic Elements?</p>
+            <article> A semantic element clearly describes its meaning to both the browser and the developer.
+                Examples of non-semantic elements: &lt;div> and &lt;span> - Tells nothing about its content.
+                Examples of semantic elements: &lt;form>, &lt;table>, and &lt;article> - Clearly defines its content.
+            </article>
+
+            <p class="sub-heading">Semantic Elements in HTML </p>
+            <article>Many web sites contain HTML code like &lt;div id=nav>,&lt;div class="header>, &lt;div id="footer">
+                to indicate navigation, header, and footer.</article>
+            <p> In HTML there are some semantic elements that can be used to define different parts of a web page: </p>
+            <p>&lt;article>
+                &lt;aside>, &lt;details>, &lt;figcaption>, &lt;figure>, &lt;footer>, &lt;header>, &lt;main>, &lt;mark>,
+                &lt;nav>, &lt;section>, &lt;summary>, &lt;time>
+            </p>
+            <p class="sub-heading">HTML &lt;section> Element </p>
+            <article>
+                    The &lt;;section> element defines a section in a document.
+
+                        According to W3C's HTML documentation: "A section is a thematic grouping of content, typically with a heading."
+                        
+                        Examples of where a &lt;section> element can be used: Chapters Introduction News items Contact information
+                        A web page could normally be split into sections for introduction, content, and contact information.
+            </article>
+            <code>
+                <pre>
+                    &lt;section>
+                        &lt;h1>WWF&lt;/h1>
+                        &lt;p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding 
+                        the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF
+                         was founded in 1961.&lt;/p>
+                        &lt;/section>
+                        
+                        &lt;section>
+                        &lt;h1>WWF's Panda symbol</h1>
+                        &lt;p>The Panda has become the symbol of WWF. The well-known panda logo of WWF originated from a panda named 
+                        Chi Chi that was transferred from the Beijing Zoo to the London Zoo in the same year of the establishment 
+                        of WWF.&lt;/p>
+                        &lt;/section&lt;
+                </pre>
+            </code>
+            <p class="sub-heading">HTML &lt;article> Element </p>
+            
+            <article>The &lt;article> element specifies independent, self-contained content.
+
+                An article should make sense on its own, and it should be possible to distribute it independently from the rest of the web site.
+                
+                Examples of where the &lt;article> element can be used: </article>
+                <ul>
+                    <li>Forum posts</li>
+                    <li>Blog posts</li>
+                    <li>User comments</li>
+                    <li>Product cards</li>
+                    <li>Newspaper articles</li>
+                </ul>
+                <p>Example of &lt;article> element is shown below: </p>
+                <code>
+                    <pre>
+                        &lt;article>
+                            &lt;h2>Google Chrome&lt;/h2>
+                            &lt;p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's 
+                            most popular web browser today!&lt;/p>
+                            &lt;/article>
+                            
+                            &lt;article>
+                            &lt;h2>Mozilla Firefox&lt;/h2>
+                            &lt;p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most
+                             popular web browser since January, 2018.&lt;/p>
+                            &lt;/article>
+                            
+                            &lt;article>
+                            &lt;h2>Microsoft Edge&lt;/h2>
+                            &lt;p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced 
+                            Internet Explorer.&lt;/p>
+                            &lt;/article&lt;
+                    </pre>
+                </code>
+        </section><br>
+
+        <footer id="footer-section">
+            Made By Nabullah Ansari&reg; as freeCodeCamp Project
+        </footer>
+    </main>
+</body>
+
+</html>
