@@ -39,6 +39,7 @@ hr{
 pre{
     white-space: pre-wrap;
     word-break: keep-all;
+    tab-size: 2;
 }
 /* __________________________________________________________________ */
 /* Navigation Bar */
@@ -150,24 +151,19 @@ a.nav-link{
 #footer-section{
     position: relative;
     bottom: 9px;
-    margin-left: -62px;
-    width: 106%;
-  
-    height: 24px;
-    padding: 16px 12px;
-    margin-top: -2px;
-    text-align: center;
-    background-color: #d8d5d4;;
-    border-radius: 45px;
+  padding: 16px 12px;
+     text-align: center;
+     border-radius: 45px;
 }
 
 @media only screen and (max-width:840px){
     #footer-section{
-            width: 334px;
-            position: absolute;
-            height: 17px;
-            padding: 13px;
-            bottom: -232px;
+
+        /* border: 2px solid black; */
+        -webkit-text-stroke-width: medium;
+        width: 219%;
+        position: relative;
+    bottom: -232px;
     font-size: 12px;
-    }
+    display: block;
 }
