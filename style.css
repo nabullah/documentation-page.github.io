@@ -29,11 +29,11 @@ header{
 
 hr{
     border: 0;
-  display: block;
-  height: 3px;
-  background-color: #1b1b31;
-  width: 100%;
-  clear: both;
+    display: block;
+    height: 3px;
+    background-color: #1b1b31;
+    width: 100%;
+    clear: both;
 }
 
 pre{
@@ -90,7 +90,7 @@ pre{
     header{
         text-align: center;
         font-size: 1.25rem;
-    margin-top: 14px;
+        margin-top: 14px;
     }
     #main-doc{ 
         position: relative;
@@ -99,10 +99,10 @@ pre{
     }
     .main-section{
         top: 187px;
-    width: 91vw;
-    left: 20px !important;
+        width: 91vw;
+        left: 20px !important;
     }
-    }
+}
     
 
 
@@ -151,18 +151,15 @@ a.nav-link{
 #footer-section{
     position: relative;
     bottom: 9px;
-  padding: 16px 12px;
+    padding: 16px 12px;
      text-align: center;
      border-radius: 45px;
 }
 
 @media only screen and (max-width:840px){
-    #footer-section{
-
-        /* border: 2px solid black; */
-        
-        width: 219%;
-        position: relative;
+    #footer-section{   
+    width: 219%;
+    position: relative;
     bottom: -232px;
     font-size: 12px;
     display: block;
